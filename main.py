@@ -132,13 +132,6 @@ while running:
         for ball in balls:
             pygame.draw.circle(screen, (255, 255, 0), ball[:2], 3)
         
-    ########################
-
-    ### Your code comes here
-
-    ########################
-
-    ## Done after drawing everything to the screen
     if not HEADLESS:
         pygame.display.flip()       
 
